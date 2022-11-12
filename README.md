@@ -6,4 +6,4 @@
 - React
 
 
-[⭐Access the page here⭐](https://bea-sbispo.github.io/animation/)
+[⭐Access the page here⭐](https://animation-beryl-ten.vercel.app)
