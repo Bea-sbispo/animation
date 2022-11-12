@@ -1,0 +1,12 @@
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+
+// Required
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$theme-colors: (
+  "transparent": #f8f9fa00,
+);
+
+@import "bootstrap";
