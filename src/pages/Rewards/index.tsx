@@ -14,6 +14,9 @@ import secondStarContent from "../../assets/png/gift/stars/cnt-stars-30.png";
 import sixthStarContent from "../../assets/png/gift/stars/cnt-stars-300.png";
 import thirdStarContent from "../../assets/png/gift/stars/cnt-stars-45.png";
 import fourthStarContent from "../../assets/png/gift/stars/cnt-stars-70.png";
+import secondStepContent from "../../assets/png/gift/stars/icon-app-5.png";
+import firstStepContent from "../../assets/png/gift/stars/icon-app-6.png";
+import thirdStepContent from "../../assets/png/gift/stars/icon-app-7.png";
 import FirstCollect from "../../assets/png/gift/stars/icon-collect-1.png";
 import SecondCollect from "../../assets/png/gift/stars/icon-collect-2.png";
 import ThirdCollect from "../../assets/png/gift/stars/icon-collect-3.png";
@@ -24,10 +27,6 @@ import secondStar from "../../assets/png/gift/stars/icon-stars-30.png";
 import sixthStar from "../../assets/png/gift/stars/icon-stars-300-v2.png";
 import thirdStar from "../../assets/png/gift/stars/icon-stars-45.png";
 import fourthStar from "../../assets/png/gift/stars/icon-stars-70.png";
-
-import secondStepContent from "../../assets/png/gift/stars/icon-app-5.png";
-import firstStepContent from "../../assets/png/gift/stars/icon-app-6.png";
-import thirdStepContent from "../../assets/png/gift/stars/icon-app-7.png";
 import firstStep from "../../assets/png/gift/stars/icon-step-1.png";
 import thirdStep from "../../assets/png/gift/stars/icon-step-2.png";
 import secondStep from "../../assets/png/gift/stars/icon-step-3.png";
@@ -163,6 +162,7 @@ const stepsData = [
     event: "third",
   },
 ];
+
 const stepsContent = [
   {
     image: firstStepContent,
