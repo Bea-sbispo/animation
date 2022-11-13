@@ -1,35 +1,38 @@
 import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
+import fukushima from "../../../assets/png/frappuccino/fukushima.png";
+import osaka from "../../../assets/png/frappuccino/osaka.png";
+import pumpkin from "../../../assets/png/frappuccino/pumpkin.png";
+import unicorn from "../../../assets/png/frappuccino/unicorn.png";
+import yamanashi from "../../../assets/png/frappuccino/yamanashi.png";
+import zombie from "../../../assets/png/frappuccino/zombie.png";
 import Contentcard from "../Cardcontent";
 import { Cardbase, Cardimage, Cardtitle } from "./styles";
+
 const cardData = [
   {
-    image: "src/assets/png/frappuccino/zombie.png",
+    image: zombie,
     title: "Zombie Frappuccino",
   },
   {
-    image: "src/assets/png/frappuccino/pumpkin.png",
+    image: pumpkin,
     title: "Pumpkin Frappuccino",
   },
   {
-    image: "src/assets/png/frappuccino/unicorn.png",
+    image: unicorn,
     title: "Unicorn Frappuccino",
   },
   {
-    image: "src/assets/png/frappuccino/unicorn.png",
-    title: "Unicorn Frappuccino",
-  },
-  {
-    image: "src/assets/png/frappuccino/fukushima.png",
+    image: fukushima,
     title: "Fukushima Frappuccino",
   },
   {
-    image: "src/assets/png/frappuccino/yamanashi.png",
+    image: yamanashi,
     title: "Yamanashi Frappuccino",
   },
   {
-    image: "src/assets/png/frappuccino/osaka.png",
+    image: osaka,
     title: "Osaka Frappuccino",
   },
 ];

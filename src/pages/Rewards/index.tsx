@@ -1,11 +1,36 @@
 import React from "react";
 import { Card, Col, Nav, Row, Tab } from "react-bootstrap";
 import Download from "../../assets/png/gift/download.jpg";
+import firstIcon from "../../assets/png/gift/first-section-icons/icon-app-1.png";
+import secondIcon from "../../assets/png/gift/first-section-icons/icon-app-2.png";
+import thirdIcon from "../../assets/png/gift/first-section-icons/icon-app-3.png";
+import fourthIcon from "../../assets/png/gift/first-section-icons/icon-app-4.png";
+import fifthIcon from "../../assets/png/gift/first-section-icons/icon-app-5.png";
+import sixthIcon from "../../assets/png/gift/first-section-icons/icon-app-6.png";
 import SbCard from "../../assets/png/gift/sb-card.jpg";
+import firstStarContent from "../../assets/png/gift/stars/cnt-stars-15.png";
+import fifthStarContent from "../../assets/png/gift/stars/cnt-stars-150.png";
+import secondStarContent from "../../assets/png/gift/stars/cnt-stars-30.png";
+import sixthStarContent from "../../assets/png/gift/stars/cnt-stars-300.png";
+import thirdStarContent from "../../assets/png/gift/stars/cnt-stars-45.png";
+import fourthStarContent from "../../assets/png/gift/stars/cnt-stars-70.png";
 import FirstCollect from "../../assets/png/gift/stars/icon-collect-1.png";
 import SecondCollect from "../../assets/png/gift/stars/icon-collect-2.png";
 import ThirdCollect from "../../assets/png/gift/stars/icon-collect-3.png";
 import FourthCollect from "../../assets/png/gift/stars/icon-collect-4.png";
+import firstStar from "../../assets/png/gift/stars/icon-stars-15.png";
+import fifthStar from "../../assets/png/gift/stars/icon-stars-150.png";
+import secondStar from "../../assets/png/gift/stars/icon-stars-30.png";
+import sixthStar from "../../assets/png/gift/stars/icon-stars-300-v2.png";
+import thirdStar from "../../assets/png/gift/stars/icon-stars-45.png";
+import fourthStar from "../../assets/png/gift/stars/icon-stars-70.png";
+
+import secondStepContent from "../../assets/png/gift/stars/icon-app-5.png";
+import firstStepContent from "../../assets/png/gift/stars/icon-app-6.png";
+import thirdStepContent from "../../assets/png/gift/stars/icon-app-7.png";
+import firstStep from "../../assets/png/gift/stars/icon-step-1.png";
+import thirdStep from "../../assets/png/gift/stars/icon-step-2.png";
+import secondStep from "../../assets/png/gift/stars/icon-step-3.png";
 import { RewardsLayout } from "../../layouts/Rewards";
 
 import {
@@ -24,59 +49,59 @@ import {
 
 const rewardsData = [
   {
-    image: "src/assets/png/gift/first-section-icons/icon-app-1.png",
+    image: firstIcon,
     text: "Benefícios exclusivos para os membros",
   },
   {
-    image: "src/assets/png/gift/first-section-icons/icon-app-2.png",
+    image: secondIcon,
     text: "Faça o pedido e pague pelo celular",
   },
   {
-    image: "src/assets/png/gift/first-section-icons/icon-app-3.png",
+    image: thirdIcon,
     text: "Promoções e acessos antecipado às novidades",
   },
   {
-    image: "src/assets/png/gift/first-section-icons/icon-app-4.png",
+    image: fourthIcon,
     text: "Comemore seu aniversário com uma bebida de presente",
   },
   {
-    image: "src/assets/png/gift/first-section-icons/icon-app-5.png",
+    image: fifthIcon,
     text: "Estrelas em dobro e estrelas bônus",
   },
   {
-    image: "src/assets/png/gift/first-section-icons/icon-app-6.png",
+    image: sixthIcon,
     text: "Aproveite seu espresso doppio na compra de cada pacote de café (250g)",
   },
 ];
 
 const starsData = [
   {
-    image: "src/assets/png/gift/stars/icon-stars-15.png",
+    image: firstStar,
     text: "15",
     event: "first",
   },
   {
-    image: "src/assets/png/gift/stars/icon-stars-30.png",
+    image: secondStar,
     text: "30",
     event: "second",
   },
   {
-    image: "src/assets/png/gift/stars/icon-stars-45.png",
+    image: thirdStar,
     text: "45",
     event: "third",
   },
   {
-    image: "src/assets/png/gift/stars/icon-stars-70.png",
+    image: fourthStar,
     text: "70",
     event: "fourth",
   },
   {
-    image: "src/assets/png/gift/stars/icon-stars-150.png",
+    image: fifthStar,
     text: "150",
     event: "fifth",
   },
   {
-    image: "src/assets/png/gift/stars/icon-stars-300-v2.png",
+    image: sixthStar,
     text: "300",
     event: "sixth",
   },
@@ -84,37 +109,37 @@ const starsData = [
 
 const starsContent = [
   {
-    image: "src/assets/png/gift/stars/cnt-stars-15.png",
+    image: firstStarContent,
     title: "Personalize sua bebida",
     text: "Deixe sua bebida ainda melhor com um shot extra de espresso, diferentes tipos de leite ou uma finalização com sua calda preferida, entre outros.",
     event: "first",
   },
   {
-    image: "src/assets/png/gift/stars/cnt-stars-30.png",
+    image: secondStarContent,
     title: "Um ótimo pedido para começar o seu dia",
     text: "Um filtrado quentinho ou pão de queijo, entre outros.",
     event: "second",
   },
   {
-    image: "src/assets/png/gift/stars/cnt-stars-45.png",
+    image: thirdStarContent,
     title: "Curta a sua pausa com sabor",
     text: "Cafe latte ou chá verde gelado com limonada, coxinha ou donuts, entre outros.",
     event: "third",
   },
   {
-    image: "src/assets/png/gift/stars/cnt-stars-70.png",
+    image: fourthStarContent,
     title: "Uma pausa gostosa, opções para todos os momentos",
     text: "Frappuccino®, cappuccino, caramelo machiatto ou fatia de bolo red velvet, entre outros",
     event: "fourth",
   },
   {
-    image: "src/assets/png/gift/stars/cnt-stars-150.png",
+    image: fifthStarContent,
     title: "Sua bebida sempre com você",
     text: "Um pacote de café em grãos, uma caneca ou um copo reutilizável.",
     event: "fifth",
   },
   {
-    image: "src/assets/png/gift/stars/cnt-stars-300.png",
+    image: sixthStarContent,
     title: "Prepare seu café em casa",
     text: "Um copo ou garrafa térmica ou de acrílico.",
     event: "sixth",
@@ -123,36 +148,36 @@ const starsContent = [
 
 const stepsData = [
   {
-    image: "src/assets/png/gift/stars/icon-step-1.png",
+    image: firstStep,
     text: "Crie uma conta",
     event: "first",
   },
   {
-    image: "src/assets/png/gift/stars/icon-step-2.png",
+    image: secondStep,
     text: "Realize uma recarga",
     event: "second",
   },
   {
-    image: "src/assets/png/gift/stars/icon-step-3.png",
+    image: thirdStep,
     text: "Colecione Estrelas, ganhe Recompensas",
     event: "third",
   },
 ];
 const stepsContent = [
   {
-    image: "src/assets/png/gift/stars/icon-app-6.png",
+    image: firstStepContent,
     title: "Crie uma conta",
     text: "Criar a sua conta é rápido e fácil. Basta baixar o app Starbucks Brasil e cadastrar-se.",
     event: "first",
   },
   {
-    image: "src/assets/png/gift/stars/icon-app-7.png",
+    image: secondStepContent,
     title: "Realize uma recarga",
     text: "Escolha o quanto deseja adicionar na conta e realize sua recarga. Afinal, toda hora é a hora certa para um bom café.",
     event: "second",
   },
   {
-    image: "src/assets/png/gift/stars/icon-app-5.png",
+    image: thirdStepContent,
     title: "Colecione Estrelas, ganhe Recompensas",
     text: "Toda vez que nos visita, você ganha Estrelas. Estrelas se transformam em Recompensas e Recompensas significam mais dos seus itens favoritos.",
     event: "third",

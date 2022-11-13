@@ -1,23 +1,27 @@
 import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
+import lemonade from "../../../assets/png/refresher/lemonade.png";
+import mango from "../../../assets/png/refresher/mango-dragonfruit.png";
+import pinkDrink from "../../../assets/png/refresher/pink-drink.png";
+import strawberry from "../../../assets/png/refresher/strawberry.png";
 import Contentcard from "../Cardcontent";
 import { Cardbase, Cardimage, Cardtitle } from "./styles";
 const cardData = [
   {
-    image: "src/assets/png/refresher/lemonade.png",
+    image: lemonade,
     title: "Lemonade Refresher",
   },
   {
-    image: "src/assets/png/refresher/mango-dragonfruit.png",
+    image: mango,
     title: "Mango Dragonfruit Refresher",
   },
   {
-    image: "src/assets/png/refresher/pink-drink.png",
+    image: pinkDrink,
     title: "Pink Drink Refresher",
   },
   {
-    image: "src/assets/png/refresher/strawberry.png",
+    image: strawberry,
     title: "Strawberry Refresher",
   },
 ];
