@@ -13,27 +13,27 @@ import { Cardbase, Cardimage, Cardtitle } from "./styles";
 const cardData = [
   {
     image: zombie,
-    title: "Zombie Frappuccino",
+    title: "Zombie",
   },
   {
     image: pumpkin,
-    title: "Pumpkin Frappuccino",
+    title: "Pumpkin",
   },
   {
     image: unicorn,
-    title: "Unicorn Frappuccino",
+    title: "Unicorn",
   },
   {
     image: fukushima,
-    title: "Fukushima Frappuccino",
+    title: "Fukushima",
   },
   {
     image: yamanashi,
-    title: "Yamanashi Frappuccino",
+    title: "Yamanashi",
   },
   {
     image: osaka,
-    title: "Osaka Frappuccino",
+    title: "Osaka",
   },
 ];
 
@@ -46,6 +46,7 @@ const Frappuccinocards: React.FC = () => (
             <Cardimage variant="top" src={item.image} />
             <Card.Body>
               <Cardtitle>{item.title}</Cardtitle>
+              <Cardtitle>Frappuccino</Cardtitle>
               <Contentcard />
             </Card.Body>
           </Cardbase>

@@ -10,19 +10,19 @@ import { Cardbase, Cardimage, Cardtitle } from "./styles";
 const cardData = [
   {
     image: lemonade,
-    title: "Lemonade Refresher",
+    title: "Lemonade",
   },
   {
     image: mango,
-    title: "Mango Dragonfruit Refresher",
+    title: "Mango Dragonfruit",
   },
   {
     image: pinkDrink,
-    title: "Pink Drink Refresher",
+    title: "Pink Drink",
   },
   {
     image: strawberry,
-    title: "Strawberry Refresher",
+    title: "Strawberry",
   },
 ];
 const Refreshercards: React.FC = () => (
@@ -34,6 +34,7 @@ const Refreshercards: React.FC = () => (
             <Cardimage variant="top" src={item.image} />
             <Card.Body>
               <Cardtitle>{item.title}</Cardtitle>
+              <Cardtitle>Refresher</Cardtitle>
               <Contentcard />
             </Card.Body>
           </Cardbase>

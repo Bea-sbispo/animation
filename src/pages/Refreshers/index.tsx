@@ -4,11 +4,9 @@ import { Drinklayout } from "../../layouts/Drinks";
 
 const Frappuccino: React.FC = () => {
   return (
-    <>
-      <Drinklayout>
-        <Refreshercards />
-      </Drinklayout>
-    </>
+    <Drinklayout>
+      <Refreshercards />
+    </Drinklayout>
   );
 };
 

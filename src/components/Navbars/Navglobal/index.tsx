@@ -28,11 +28,9 @@ const Globalnav: React.FC = () => (
           <LinkContainer to="/rewards">
             <Nav.Link>REWARDS</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/find">
-            <Nav.Link>
-              <GoLocation size={24} /> FIND A STORE
-            </Nav.Link>
-          </LinkContainer>
+          <Nav.Link href="https://www.starbucks.com.br/lojas" target="_blank">
+            <GoLocation size={24} /> FIND A STORE
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>

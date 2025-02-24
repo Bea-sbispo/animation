@@ -21,7 +21,6 @@ import {
 } from "./styles";
 
 const Home: React.FC = () => {
-  // logica
   return (
     <>
       <Globalnav />
